@@ -11,7 +11,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  newHash = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G].sort
+  newHash = [DON_G.sort, JOELLE_VD.sort, PAT_M.sort, KATE_G.sort, BRUCE_G.sort]
 end
 
 def aoh_lookup(aoh, row, key)
